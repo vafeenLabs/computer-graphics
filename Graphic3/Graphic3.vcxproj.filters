@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\glad.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GLVertexBuffer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GLIndexBuffer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GLShader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source3.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GLModel.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Affine.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="parse.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vcpkg.json" />
+    <None Include="vertex.vert" />
+    <None Include="fragment.frag" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{54d1d87e-d35a-4dbe-ac7c-f0cefb1ad9d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{5540ae0f-f981-4bbb-8939-b6dbe20e7dc9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLVertexBuffer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLIndexBuffer.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLShader.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GLModel.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Affine.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="parse.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="model.txt" />
+  </ItemGroup>
+</Project>
